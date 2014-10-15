@@ -14,6 +14,7 @@
 - Transaction batch processing of Android version by @marcucio
 - Maintained by @brodybits (Chris Brody)
 - Fixes to support old Android versions by @nolanlawson
+- Add R*Tree Support for Android by @fastrde (Fabian Strachanski)
 
 ## iOS version
 

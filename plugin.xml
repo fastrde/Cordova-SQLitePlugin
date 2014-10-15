@@ -34,7 +34,52 @@
             </feature>
         </config-file>
 
+<source-file src="src/android/org/sqlite/database/sqlite/CloseGuard.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/DatabaseObjectNotClosedException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteAbortException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteAccessPermException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteBindOrColumnIndexOutOfRangeException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteBlobTooBigException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteCantOpenDatabaseException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteClosable.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteConnection.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteConnectionPool.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteConstraintException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteCursor.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteCursorDriver.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteCustomFunction.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDatabase.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDatabaseConfiguration.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDatabaseCorruptException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDatabaseLockedException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDatatypeMismatchException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDebug.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDirectCursorDriver.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDiskIOException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteDoneException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteFullException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteGlobal.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteMisuseException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteOpenHelper.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteOutOfMemoryException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteProgram.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteQuery.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteQueryBuilder.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteReadOnlyDatabaseException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteSession.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteStatement.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteStatementInfo.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteTableLockedException.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SQLiteTransactionListener.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="src/android/org/sqlite/database/sqlite/SqliteWrapper.java" target-dir="src/org/sqlite/database/sqlite"/>
+<source-file src="libs/armeabi/libsqliteX.so" target-dir="libs/armeabi"/>
         <source-file src="src/android/org/pgsqlite/SQLitePlugin.java" target-dir="src/org/pgsqlite"/>
+        <source-file src="src/android/org/sqlite/database/SQLException.java" target-dir="src/org/sqlite/database"/>
+        <source-file src="src/android/org/sqlite/database/DatabaseErrorHandler.java" target-dir="src/org/sqlite/database"/>
+        <source-file src="src/android/org/sqlite/database/DefaultDatabaseErrorHandler.java" target-dir="src/org/sqlite/database"/>
+        <source-file src="src/android/org/sqlite/database/ExtraUtils.java" target-dir="src/org/sqlite/database"/>
+
     </platform>
 
     <!-- amazon-fireos -->

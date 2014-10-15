@@ -9,11 +9,17 @@ package org.pgsqlite;
 import android.annotation.SuppressLint;
 import android.database.Cursor;
 import android.database.CursorWindow;
-import android.database.sqlite.SQLiteCursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteException;
-import android.database.sqlite.SQLiteStatement;
 
+import org.sqlite.database.sqlite.SQLiteCursor;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+import org.sqlite.database.sqlite.SQLiteException;
+import org.sqlite.database.sqlite.SQLiteStatement;
+/*
+import and roid.database.sqlite.SQLiteCursor;
+import and roid.database.sqlite.SQLiteDatabase;
+import and roid.database.sqlite.SQLiteException;
+import and roid.database.sqlite.SQLiteStatement;
+*/
 import android.util.Base64;
 import android.util.Log;
 
